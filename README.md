@@ -80,3 +80,7 @@ Docker Commands (manually if needed): 📦 Build the Docker Image: bash docker b
 Login to Docker Hub (for pushing): bash docker login
 
 Push Docker Image to Docker Hub: bash docker tag durgarao365/cddproject durgarao365/cddproject:latest docker push durgarao365/cddproject:latest
+
+output 
+![image](https://github.com/user-attachments/assets/97e2dede-716e-4f45-a28b-7b6e334a1bf9)
+
