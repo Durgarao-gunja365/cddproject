@@ -4,7 +4,7 @@
 
 🛠️ CI/CD Pipeline Setup This project uses Jenkins for continuous integration and Docker for containerization.
 
-🔄 Workflow: Jenkins Pipeline:
+# Workflow: Jenkins Pipeline:
 
 Configured via a Jenkinsfile stored in the root of the repository.
 
@@ -42,9 +42,14 @@ Docker Hub account (for pushing images)
 
 🔧 Step-by-Step Commands
 
-Clone your repository (if needed): bash git clone https://github.com/Durgarao-gunja365/cddproject.git cd cddproject
+Clone your repository (if needed):
+bash
+git clone https://github.com/Durgarao-gunja365/cddproject.git cd cddproject
 
-Start Jenkins and open the Jenkins dashboard: bash sudo systemctl start jenkins Go to http://localhost:8080 or your Jenkins server IP
+Start Jenkins and open the Jenkins dashboard:
+bash
+sudo systemctl start jenkins
+Go to http://localhost:8080 or your Jenkins server IP
 
 Create a New Jenkins Pipeline Job: Click on "New Item".
 
