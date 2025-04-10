@@ -32,7 +32,8 @@ Required packages are installed inside the container.
 
 ✅ Build Status Jenkins will show whether the build passed or failed directly on your Jenkins dashboard.
 
-# 🚀 CI/CD with Jenkins and Docker — Step-by-Step Commands 🧰 Prerequisites Jenkins installed and running
+# 🚀 CI/CD with Jenkins and Docker — Step-by-Step Commands 
+🧰 Prerequisites Jenkins installed and running
 
 Docker installed and running
 
