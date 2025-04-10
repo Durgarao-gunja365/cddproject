@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_CREDENTIALS = credentials('dockerhub-credentials-id')
-        IMAGE_NAME = 'your-dockerhub-username/simple-python-app'
+        DOCKER_HUB_CREDENTIALS = credentials('dockerhub')
+        IMAGE_NAME = 'durgarao365/cddproject'
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/your-repo.git'
+                git 'https://github.com/Durgarao-gunja365/cddproject.git'
             }
         }
 
