@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_CREDENTIALS = credentials('dockerhub')
+        DOCKER_HUB_CREDENTIALS = credentials('docker')
         IMAGE_NAME = 'durgarao365/cddproject'
     }
 
@@ -32,7 +32,7 @@ pipeline {
         stage('Push Image') {
             steps {
                 script {
-                    sh "docker push $IMAGE_NAME"
+                    sh "docker push $IMAGE_NA"
                 }
             }
         }
